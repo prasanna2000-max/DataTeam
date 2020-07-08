@@ -1,0 +1,15 @@
+{
+	"auth": {
+		"smartocr68ba9718": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"storage": {
+		"smartocr": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		}
+	}
+}
